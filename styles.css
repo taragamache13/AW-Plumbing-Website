@@ -664,7 +664,7 @@ footer {
     gap: 10px;
 }
 .bg-image-section {
-    background: url('/images/burst-pipe.png') center/cover no-repeat;
+    background: url('images/burst-pipe.png') center/cover no-repeat;
     padding: 80px 20px;
     color: white;
     position: relative;
@@ -876,7 +876,7 @@ ul {
 }
 .hero-van {
     position: relative;
-    background-image: url('/images/van.jpg');
+    background-image: url('images/van.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
