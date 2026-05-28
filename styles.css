@@ -1,4 +1,5 @@
-﻿.county {
+﻿
+.county {
     margin-bottom: 30px;
 }
 
@@ -611,7 +612,7 @@ footer {
     height: auto;
 }
 @media (max-width: 600px) {
-    .footer- {
+    .footer {
         flex-direction: column;
         text-align: center;
     }
@@ -888,9 +889,10 @@ ul {
 .hero-cave-junction::before,
 .hero-glendale::before,
 .hero-merlin::before,
-.hero-willimas::before,
+.hero-williams::before,
 .hero-ashland::before,
 .hero-medford::before,
+.hero-white-city::before,
 .hero-van::before{
     content: "";
     position: absolute;
@@ -905,7 +907,7 @@ ul {
 .hero-williams,
 .hero-ashland,
 .hero-medford,
-.hero-white-city, * {
+.hero-white-city * {
     position: relative;
     z-index: 2;
 }
@@ -916,7 +918,8 @@ ul {
 .hero-merlin h1,
 .hero-williams h1,
 .hero-ashland h1,
-.hero-medford h1 {
+.hero-medford h1,
+.hero-white-city h1 {
     color: white;
     text-shadow: 0 2px 8px rgba(0,0,0,.75), 0 0 20px rgba(0,0,0,.45), 0 0 40px rgba(45,212,191,.18);
 }
@@ -928,9 +931,31 @@ ul {
 .hero-williams p,
 .hero-ashland p,
 .hero-medford p,
+.hero-white-city p,
 .hero-van p{
     color: rgba(255,255,255,.92);
     text-shadow: 0 2px 6px rgba(0,0,0,.8);
+}
+@media (max-width:768px) {
+    .hero-cave-junction,
+    .hero-grants-pass,
+    .hero-glendale,
+    .hero-merlin,
+    .hero-williams,
+    .hero-ashland,
+    .hero-medford,
+    .hero-white-city {
+        height:420px;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center top;
+        padding: 80px 20px;
+    }
+    .hero-glendale {
+        body {
+            color: red !important;
+        }
+    }
 }
 
 
