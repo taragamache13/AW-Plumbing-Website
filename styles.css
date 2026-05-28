@@ -795,7 +795,7 @@ ul {
 }
 .hero-cave-junction {
     position: relative;
-    background-image: url('/images/cave-junction-caves.jpg');
+    background-image: url('../images/cave-junction-caves.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -806,7 +806,7 @@ ul {
 
 .hero-grants-pass{
     position: relative;
-    background-image: url('/images/grants-pass-rafting.jpg');
+    background-image: url('../images/grants-pass-rafting.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -816,7 +816,7 @@ ul {
 }
 .hero-glendale {
     position: relative;
-    background-image: url('/images/lumber-mill-glendale.jpg');
+    background-image: url('../images/lumber-mill-glendale.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -826,7 +826,7 @@ ul {
 }
 .hero-merlin {
     position: relative;
-    background-image: url('/images/river-merlin.jpg');
+    background-image: url('../images/river-merlin.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -836,7 +836,7 @@ ul {
 }
 .hero-williams {
     position: relative;
-    background-image: url('/images/vineyard-williams.jpg');
+    background-image: url('../images/vineyard-williams.jpg');
     background-size: cover;
     color: var( --primary-light);
     padding: 80px 20px;
@@ -846,7 +846,7 @@ ul {
 }
 .hero-ashland {
     position: relative;
-    background-image: url('/images/stage-ashland.jpg');
+    background-image: url('../images/stage-ashland.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -856,7 +856,7 @@ ul {
 }
 .hero-medford {
     position: relative;
-    background-image: url('/images/pear-orchard-medford.jpg');
+    background-image: url('../images/pear-orchard-medford.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
@@ -866,7 +866,7 @@ ul {
 }
 .hero-white-city {
     position: relative;
-    background-image: url('/images/white-city-farmhouse.jpg');
+    background-image: url('../images/white-city-farmhouse.jpg');
     background-size: cover;
     color: white;
     padding: 80px 20px;
