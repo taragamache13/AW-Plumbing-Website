@@ -892,22 +892,22 @@ ul {
 .hero-williams::before,
 .hero-ashland::before,
 .hero-medford::before,
-.hero-white-city::before,
-.hero-van::before{
+.hero-white-city::before{
     content: "";
     position: absolute;
     inset: 0;
     background: linear-gradient( rgba(10,10,30,.72), rgba(20,20,40,.58) );
     z-index: 1;
 }
-.hero-grants-pass,
-.hero-cave-junction,
+.hero-grants,
+.hero-text-box,
 .hero-glendale,
 .hero-merlin,
 .hero-williams,
 .hero-ashland,
 .hero-medford,
-.hero-white-city * {
+.hero-white-city,
+.hero-van * {
     position: relative;
     z-index: 2;
 }
@@ -931,8 +931,7 @@ ul {
 .hero-williams p,
 .hero-ashland p,
 .hero-medford p,
-.hero-white-city p,
-.hero-van p{
+.hero-white-city p{
     color: rgba(255,255,255,.92);
     text-shadow: 0 2px 6px rgba(0,0,0,.8);
 }
@@ -944,17 +943,13 @@ ul {
     .hero-williams,
     .hero-ashland,
     .hero-medford,
-    .hero-white-city {
+    .hero-white-city,
+    .hero-van{
         height:420px;
         background-attachment: scroll;
         background-size: cover;
         background-position: center top;
         padding: 80px 20px;
-    }
-    .hero-glendale {
-        body {
-            color: red !important;
-        }
     }
 }
 
@@ -965,13 +960,55 @@ ul {
     padding:40px;
     border-radius:24px;
     border:1px solid rgba(255,255,255,.08);
+    z-index:2;
+}
+@media (max-width:768px) {
+    .hero-text-box {
+        padding-bottom:10px;
+        padding-top:10px;
+    }
 }
 .hero-text-box-van {
     background: rgba(10,10,25,.28);
-    backdrop-filter: blur(1px);
-    padding: 40px;
+    backdrop-filter: blur(5px);
+    padding: 20px;
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,.08);
+    position:relative;
+    z-index:2;
+    width:100%;
+    max-width:900px;
+    text-align:center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    
+}
+.hero-text-box-van p{
+    
+   margin:0 auto 18px auto;
+    line-height:1.7;
+    font-size:1.05rem;
+    text-align:center;
+    width:100%;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    hyphens:auto;
+    color:var(--bg-soft);
+ 
+}
+@media (max-width:768px) {
+    .hero-van-header {
+        display:none;
+    }
+    .hero-van{
+        display:none;
+    }
 }
 .terms-container h2 {
     font-size: 1.4rem;
