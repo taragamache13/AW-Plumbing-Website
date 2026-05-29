@@ -1060,3 +1060,7 @@ ul {
         margin-left:0;
     }
 }
+.spaced {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
