@@ -1054,3 +1054,9 @@ ul {
     border-radius: 10px;
     font-weight: bold;
 }
+@media (max-width:768px) {
+    ul{
+        padding-left:20px;
+        margin-left:0;
+    }
+}
